@@ -1702,6 +1702,10 @@ body {
 .gallery article {
   min-width: 440px;
   min-height: 276px; }
+  @media only screen and (max-width: 520px) {
+    .gallery article {
+      min-width: 85vw;
+      min-height: 40vh; } }
 .gallery article a {
   vertical-align: middle;
   display: flex;
@@ -1712,6 +1716,12 @@ body {
     padding: 0; }
     .gallery article a p.white {
       color: white; }
+
+.quemsoueu {
+  border-radius: 100%;
+  width: 10em;
+  height: 10em;
+  margin: 1.5em; }
 
 .ocuppy {
   width: 100%;
