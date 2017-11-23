@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Lazer e bebê</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+        <header id="header">
+            <h1 id="title"><a href="#intro">Lazer e Bebê</a></h1>
+            <button id="mobile-menu-button" class="fa fa-bars" aria-hidden="true"></button>
+            <nav id="main-menu-nav">
+                <ul>
+                    <li><a href="index.html#conhecasp">Conheça SP</a></li>
+                    <li><a href="index.html#transporte">Transporte</a></li>
+                    <li><a href="index.html#ondelevar">Passeios</a></li>
+                    <li><a href="index.html#dicas">Dicas</a></li>
+                    <li><a href="index.html#whoami">Quem sou eu</a></li>
+                    <li><a href="index.html#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <header id="mobilemenu">
+            <nav>
+                <ul>
+                    <li><a href="index.html#conhecasp">Conheça SP</a></li>
+                    <li><a href="index.html#transporte">Transporte</a></li>
+                    <li><a href="index.html#ondelevar">Passeios</a></li>
+                    <li><a href="index.html#dicas">Dicas</a></li>
+                    <li><a href="index.html#whoami">Quem sou eu</a></li>
+                    <li><a href="index.html#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+		<!-- Content -->
+        <section id="parqueaclima" class="main style-pages dark fullscreen">
+            <div class="content-pages">
+                <header>
+                    <h2>Parque da Aclimação</h2>
+                </header>
+                
+                <p>Local: Rua Muniz de Souza, 1119 – Aclimação, São Paulo</p>
+                <p>Metrô - Liberdade (Linha 1 - Azul)</p>
+                <p>Horário de funcionamento: Diariamente das 06h às 20h</p>
+                <p>Ingresso: Gratuito</p>
+                <a href="http://www.saopaulo.sp.gov.br/conhecasp/parques-e-reservas-naturais/parque-da-aclimacao/" target="_blank">Link para o site</a>
+            </div>
+            
+            <footer class="back">
+                <a href="index.html#ondelevar" class="button style2 down rotate-90">More</a>
+            </footer>
+        </section>
+        
+		<!-- Footer -->
+        <footer id="footer">
+
+            <!-- Icons -->
+                <ul class="actions">
+                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                </ul>
+
+            <!-- Menu -->
+                <ul class="menu">
+                    <li>&copy; <a href="https://lucasmontec.github.io/">Carvalab 2017</a></li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+
+        </footer>
+        
+		<!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.poptrox.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            var toggle = false;
+            
+            function ToggleMenu(){
+                var amount = (toggle?"-100":"0");
+                toggle = !toggle;
+                $("#mobilemenu").css({
+                    "-webkit-transform":"translateY("+amount+"%)",
+                    "-ms-transform":"translateY("+amount+"%)",
+                    "transform":"translateY("+amount+"%)"
+                });
+            }
+            
+            $(document).ready(function() {
+                $("#mobile-menu-button").click(function(){
+                    ToggleMenu();
+                });
+                
+                $("#mobilemenu a").click(function(){
+                    ToggleMenu();
+                });
+            });
+        </script>
+        
+	</body>
+</html>
