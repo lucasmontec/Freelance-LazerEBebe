@@ -118,3 +118,34 @@
         color: rgb(255,255,220);
     }
 }
+
+//Shoppings
+
+.shopping{
+    background: url('images/overlay_dark_blue_90.png'), url('../../images/shopping.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+//Outros
+
+#mamusca{
+    background: url('images/overlay_dark_orange_90.png'), url('../../images/mamusca.png');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+#biblio{
+    background: url('images/overlay_dark_orange_90.png'), url('../../images/biblio.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}

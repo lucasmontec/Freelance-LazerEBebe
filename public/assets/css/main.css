@@ -1841,6 +1841,48 @@ body {
   #pinaco a {
     color: #ffffdc; }
 
+.shopping {
+  background: url("images/overlay_dark_blue_90.png"), url("../../images/shopping.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  .shopping a {
+    color: #e6e6ff; }
+  .shopping a {
+    color: #ffffdc; }
+
+#mamusca {
+  background: url("images/overlay_dark_orange_90.png"), url("../../images/mamusca.png");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #mamusca a {
+    color: #e6e6ff; }
+  #mamusca a {
+    color: #ffffdc; }
+
+#biblio {
+  background: url("images/overlay_dark_orange_90.png"), url("../../images/biblio.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #biblio a {
+    color: #e6e6ff; }
+  #biblio a {
+    color: #ffffdc; }
+
 /* Custom Classes */
 .light-blue {
   background-color: #f5f5fa; }
@@ -1857,6 +1899,10 @@ body {
   @media only screen and (max-width: 520px) {
     .gallery article {
       min-width: 85vw;
+      min-height: 40vh; } }
+  @media only screen and (max-width: 1466px) {
+    .gallery article {
+      min-width: 100%;
       min-height: 40vh; } }
 .gallery article a {
   vertical-align: middle;
