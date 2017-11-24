@@ -1,0 +1,120 @@
+@mixin sectionbg{
+    background-size: cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, bottom center;
+    background-repeat: repeat, no-repeat;
+    
+    border-radius: 15px;
+    color: white;
+    
+    padding: 2em;
+    
+    a{
+        color: rgb(230,230,255);
+    }
+}
+
+//color:#39454b;
+
+//Cinema
+
+#cinematerna{
+    background: url('images/overlay_dark_blue_60.png'), url('../../images/cinematerna.jpg');
+    @include sectionbg;
+}
+
+//Cultural
+
+#dancamaterna{
+    background: url('images/overlay_dark_orange_60.png'), url('../../images/dancamaterna.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+#spacial{
+    background: url('images/overlay_dark_orange_60.png'), url('../../images/circospacial.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+//Roles
+
+#maetine{
+    background: url('images/overlay_dark_blue_60.png'), url('../../images/matinae.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+//Museus
+
+#casarosas{
+    background: url('images/overlay_dark_orange_60.png'), url('../../images/casadasrosas.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+#afrobrasil{
+    background: url('images/overlay_dark_orange_90.png'), url('../../images/museuafro.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+#catavento{
+    background: url('images/overlay_dark_orange_60.png'), url('../../images/catavento.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+#casabrasileira{
+    background: url('images/overlay_dark_orange_90.png'), url('../../images/museudacasa.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+#imagina{
+    background: url('images/overlay_dark_orange_90.png'), url('../../images/museuimagina.png');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+#futebol{
+    background: url('images/overlay_dark_orange_90.png'), url('../../images/museudofutebol.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}
+
+#pinaco{
+    background: url('images/overlay_dark_orange_60.png'), url('../../images/pinacoteca.jpg');
+    @include sectionbg;
+    
+    a{
+        color: rgb(255,255,220);
+    }
+}

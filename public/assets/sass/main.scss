@@ -52,7 +52,11 @@
 	@import 'layout/header';
 	@import 'layout/main';
 	@import 'layout/footer';
+
+// Custom layout
+
     @import 'layout/pages';
+    @import 'layout/sections';
 
 /* Custom Classes */
     .light-blue{

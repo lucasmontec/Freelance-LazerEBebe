@@ -1537,98 +1537,98 @@ body {
 
 /* individual pages */
 #aquario {
-  background: url("images/overlay_dark_blue_30.png"), url("../../images/peixe.jpg");
+  background: url("images/overlay_dark_blue_30.png"), url("../../images/pages/peixe.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #bichomania {
-  background: url("images/overlay_orange.png"), url("../../images/criancacoelho.jpg");
+  background: url("images/overlay_orange.png"), url("../../images/pages/criancacoelho.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #ciadosbichos {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/02.jpg");
+  background: url("images/overlay_orange.png"), url("../../images/pages/ciabichos.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #fazendinha {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/01.jpg");
+  background: url("images/overlay_dark_blue_30.png"), url("../../images/pages/fazendinha.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #horto {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/02.jpg");
+  background: url("images/overlay_dark_blue_30.png"), url("../../images/pages/horto.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #jardim {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/02.jpg");
+  background: url("images/overlay_orange.png"), url("../../images/pages/jdbotanico.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #parquevolpi {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/01.jpg");
+  background: url("images/overlay_dark_blue_30.png"), url("../../images/pages/pqvolpi.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #parqueburle {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/02.jpg");
+  background: url("images/overlay_orange.png"), url("../../images/pages/pqburle.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #parqueaclima {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/02.jpg");
+  background: url("images/overlay_orange.png"), url("../../images/pages/pqaclima.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #monica {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/01.jpg");
+  background: url("images/overlay_dark_blue_30.png"), url("../../images/pages/pqmonica.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #parquedopovo {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/01.jpg");
+  background: url("images/overlay_orange.png"), url("../../images/pages/pqpovo.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #pracafaggin {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/02.jpg");
+  background: url("images/overlay_orange.png"), url("../../images/pages/pcdrernesto.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #pracacoutinho {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/02.jpg");
+  background: url("images/overlay_dark_blue_30.png"), url("../../images/pages/pccoutinho.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
 #petzoo {
-  background: url("images/overlay_orange.png"), url("../../images/thumbs/01.jpg");
+  background: url("images/overlay_orange.png"), url("../../images/pages/petzoo.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
@@ -1688,6 +1688,158 @@ body {
 
 .back a {
   margin-left: 5vh; }
+
+#cinematerna {
+  background: url("images/overlay_dark_blue_60.png"), url("../../images/cinematerna.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #cinematerna a {
+    color: #e6e6ff; }
+
+#dancamaterna {
+  background: url("images/overlay_dark_orange_60.png"), url("../../images/dancamaterna.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #dancamaterna a {
+    color: #e6e6ff; }
+  #dancamaterna a {
+    color: #ffffdc; }
+
+#spacial {
+  background: url("images/overlay_dark_orange_60.png"), url("../../images/circospacial.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #spacial a {
+    color: #e6e6ff; }
+  #spacial a {
+    color: #ffffdc; }
+
+#maetine {
+  background: url("images/overlay_dark_blue_60.png"), url("../../images/matinae.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #maetine a {
+    color: #e6e6ff; }
+  #maetine a {
+    color: #ffffdc; }
+
+#casarosas {
+  background: url("images/overlay_dark_orange_60.png"), url("../../images/casadasrosas.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #casarosas a {
+    color: #e6e6ff; }
+  #casarosas a {
+    color: #ffffdc; }
+
+#afrobrasil {
+  background: url("images/overlay_dark_orange_90.png"), url("../../images/museuafro.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #afrobrasil a {
+    color: #e6e6ff; }
+  #afrobrasil a {
+    color: #ffffdc; }
+
+#catavento {
+  background: url("images/overlay_dark_orange_60.png"), url("../../images/catavento.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #catavento a {
+    color: #e6e6ff; }
+  #catavento a {
+    color: #ffffdc; }
+
+#casabrasileira {
+  background: url("images/overlay_dark_orange_90.png"), url("../../images/museudacasa.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #casabrasileira a {
+    color: #e6e6ff; }
+  #casabrasileira a {
+    color: #ffffdc; }
+
+#imagina {
+  background: url("images/overlay_dark_orange_90.png"), url("../../images/museuimagina.png");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #imagina a {
+    color: #e6e6ff; }
+  #imagina a {
+    color: #ffffdc; }
+
+#futebol {
+  background: url("images/overlay_dark_orange_90.png"), url("../../images/museudofutebol.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #futebol a {
+    color: #e6e6ff; }
+  #futebol a {
+    color: #ffffdc; }
+
+#pinaco {
+  background: url("images/overlay_dark_orange_60.png"), url("../../images/pinacoteca.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  border-radius: 15px;
+  color: white;
+  padding: 2em; }
+  #pinaco a {
+    color: #e6e6ff; }
+  #pinaco a {
+    color: #ffffdc; }
 
 /* Custom Classes */
 .light-blue {
