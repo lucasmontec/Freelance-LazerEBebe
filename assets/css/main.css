@@ -1634,6 +1634,55 @@ body {
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
+.shopping {
+  background: url("images/overlay_dark_blue_60.png"), url("../../images/shopping.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat; }
+
+#centernorte {
+  background: url("images/overlay_orange.png"), url("../../images/thumbs/01.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat; }
+
+#eldorado {
+  background: url("images/overlay_orange.png"), url("../../images/thumbs/02.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat; }
+
+#analia {
+  background: url("images/overlay_orange.png"), url("../../images/thumbs/03.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat; }
+
+#morumbi {
+  background: url("images/overlay_orange.png"), url("../../images/thumbs/04.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat; }
+
+#cidadesp {
+  background: url("images/overlay_orange.png"), url("../../images/thumbs/05.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat; }
+
+#parkshopping {
+  background: url("images/overlay_orange.png"), url("../../images/thumbs/06.jpg");
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat; }
+
 /* general style */
 .main > .content-pages {
   max-width: calc(100% - 4em);
@@ -1839,20 +1888,6 @@ body {
   #pinaco a {
     color: #e6e6ff; }
   #pinaco a {
-    color: #ffffdc; }
-
-.shopping {
-  background: url("images/overlay_dark_blue_90.png"), url("../../images/shopping.jpg");
-  background-size: cover;
-  background-attachment: fixed, fixed;
-  background-position: top left, bottom center;
-  background-repeat: repeat, no-repeat;
-  border-radius: 15px;
-  color: white;
-  padding: 2em; }
-  .shopping a {
-    color: #e6e6ff; }
-  .shopping a {
     color: #ffffdc; }
 
 #mamusca {

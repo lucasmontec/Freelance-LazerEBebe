@@ -76,6 +76,44 @@
     @include articlebg;
 }
 
+//Shoppings
+
+.shopping{
+    background: url('images/overlay_dark_blue_60.png'), url('../../images/shopping.jpg');
+    @include articlebg;
+}
+
+#centernorte{
+    background: url('images/overlay_orange.png'), url('../../images/thumbs/01.jpg');
+    @include articlebg;
+}
+
+#eldorado{
+    background: url('images/overlay_orange.png'), url('../../images/thumbs/02.jpg');
+    @include articlebg;
+}
+
+#analia{
+    background: url('images/overlay_orange.png'), url('../../images/thumbs/03.jpg');
+    @include articlebg;
+}
+
+#morumbi{
+    background: url('images/overlay_orange.png'), url('../../images/thumbs/04.jpg');
+    @include articlebg;
+}
+
+#cidadesp{
+    background: url('images/overlay_orange.png'), url('../../images/thumbs/05.jpg');
+    @include articlebg;
+}
+
+#parkshopping{
+    background: url('images/overlay_orange.png'), url('../../images/thumbs/06.jpg');
+    @include articlebg;
+}
+
+
 /* general style */
 
 .main {
